@@ -19,3 +19,15 @@ This approach integrates both image data and facial landmarks as inputs, combini
 | **Confusion Matrix**       | ![image](https://github.com/user-attachments/assets/585573d6-af6c-4b5d-963c-faef0310e634) | ![image](https://github.com/user-attachments/assets/98263320-7eb5-4f64-bd8e-79f8e45c1925) |
 | **Classification Report**  | ![image](https://github.com/user-attachments/assets/1321b655-8bdc-47dc-baf0-a9242331fa0a) | ![image](https://github.com/user-attachments/assets/9e465788-08e5-4624-9217-a9751da1f824) |
 | **Loss (categorical_crossentropy)**                   | 1.15                                          | 1.46                                             |
+
+## System Environment Settings
+
+- **Python Version**: 3.10.14
+- **TensorFlow Version**: 2.10.1
+- **CUDA Toolkit**: 11.2
+- **cuDNN**: 8.1.0
+- **mediapipe** : 0.10.14
+- **numpy**: 1.24.3
+
+# Conclusion
+The dual input model that combines images and facial landmarks outperforms the CNN model that uses only image data across all metrics, demonstrating the added value of incorporating geometric information about facial features.

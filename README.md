@@ -29,5 +29,8 @@ This approach integrates both image data and facial landmarks as inputs, combini
 - **mediapipe** : 0.10.14
 - **numpy**: 1.24.3
 
+## Fine-Tuning with Keras Tuner
+To optimize the hyperparameters used Keras Tuner to find the optimal parameters for model(weight) converge.
+
 # Conclusion
 The dual input model that combines images and facial landmarks outperforms the CNN model that uses only image data across all metrics, demonstrating the added value of incorporating geometric information about facial features.
